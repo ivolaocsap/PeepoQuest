@@ -131,9 +131,21 @@ const DragonBall: React.FC = () => {
 
           <CardsSmall mobile={isMobile}>
             <StyledDoubleCol>
-              <Social onClick={tooglewhite} src={icTwitter} active={true} />
-              <Social onClick={tooglewhite} src={icTelegram} active={true} />
-              <Social onClick={tooglewhite} src={icDiscord} active={true} />
+              <Social
+                onClick={() => window.open('https://twitter.com/PepeQuests', '_blank')}
+                src={icTwitter}
+                active={true}
+              />
+              <Social
+                onClick={() => window.open('https://t.me/PeepoQuests', '_blank')}
+                src={icTelegram}
+                active={true}
+              />
+              <Social
+                onClick={() => window.open('https://discord.gg/5JtUf8c2', '_blank')}
+                src={icDiscord}
+                active={true}
+              />
             </StyledDoubleCol>
           </CardsSmall>
           <CardsSmall mobile={isMobile}>
