@@ -1,0 +1,32 @@
+svg {
+  shape-rendering: optimizeSpeed;
+}
+
+.initial-loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0c0d11;
+}
+
+.initial-loading img {
+  width: 100px;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0c0d11;
+}
